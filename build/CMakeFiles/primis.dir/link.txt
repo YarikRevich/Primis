@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc lib/libprimis.a CMakeFiles/primis.dir/src/Primis/Application.cpp.o CMakeFiles/primis.dir/src/Primis/Log.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib lib/libprimis.a
