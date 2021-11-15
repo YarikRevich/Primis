@@ -1,5 +1,7 @@
 #pragma once
 
+#include "Core/Core.hpp"
+
 namespace Primis {
     class Application{
         public: 

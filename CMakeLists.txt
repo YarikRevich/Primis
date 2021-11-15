@@ -11,3 +11,5 @@ src/Primis/Application.cpp
 src/Primis/Log.cpp
 )
 
+target_precompile_headers(primis PRIVATE src/pch.hpp)
+

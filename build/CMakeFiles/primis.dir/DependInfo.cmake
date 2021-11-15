@@ -8,8 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Volumes/Files/c/Primis/Primis/build/CMakeFiles/primis.dir/cmake_pch.hxx.cxx" "CMakeFiles/primis.dir/cmake_pch.hxx.pch" "gcc" "CMakeFiles/primis.dir/cmake_pch.hxx.pch.d"
+  "/Volumes/Files/c/Primis/Primis/build/CMakeFiles/primis.dir/cmake_pch.hxx" "CMakeFiles/primis.dir/cmake_pch.hxx.pch" "gcc" "CMakeFiles/primis.dir/cmake_pch.hxx.pch.d"
   "/Volumes/Files/c/Primis/Primis/src/Primis/Application.cpp" "CMakeFiles/primis.dir/src/Primis/Application.cpp.o" "gcc" "CMakeFiles/primis.dir/src/Primis/Application.cpp.o.d"
+  "/Volumes/Files/c/Primis/Primis/build/CMakeFiles/primis.dir/cmake_pch.hxx" "CMakeFiles/primis.dir/src/Primis/Application.cpp.o" "gcc" "CMakeFiles/primis.dir/src/Primis/Application.cpp.o.d"
   "/Volumes/Files/c/Primis/Primis/src/Primis/Log.cpp" "CMakeFiles/primis.dir/src/Primis/Log.cpp.o" "gcc" "CMakeFiles/primis.dir/src/Primis/Log.cpp.o.d"
+  "/Volumes/Files/c/Primis/Primis/build/CMakeFiles/primis.dir/cmake_pch.hxx" "CMakeFiles/primis.dir/src/Primis/Log.cpp.o" "gcc" "CMakeFiles/primis.dir/src/Primis/Log.cpp.o.d"
   )
 
 # Targets to which this target links.

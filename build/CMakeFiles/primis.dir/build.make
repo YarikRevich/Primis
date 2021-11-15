@@ -69,33 +69,52 @@ include CMakeFiles/primis.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/primis.dir/flags.make
 
+CMakeFiles/primis.dir/cmake_pch.hxx.pch: CMakeFiles/primis.dir/flags.make
+CMakeFiles/primis.dir/cmake_pch.hxx.pch: CMakeFiles/primis.dir/cmake_pch.hxx.cxx
+CMakeFiles/primis.dir/cmake_pch.hxx.pch: CMakeFiles/primis.dir/cmake_pch.hxx
+CMakeFiles/primis.dir/cmake_pch.hxx.pch: CMakeFiles/primis.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Files/c/Primis/Primis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/primis.dir/cmake_pch.hxx.pch"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -emit-pch -Xclang -include -Xclang /Volumes/Files/c/Primis/Primis/build/CMakeFiles/primis.dir/cmake_pch.hxx -x c++-header -MD -MT CMakeFiles/primis.dir/cmake_pch.hxx.pch -MF CMakeFiles/primis.dir/cmake_pch.hxx.pch.d -o CMakeFiles/primis.dir/cmake_pch.hxx.pch -c /Volumes/Files/c/Primis/Primis/build/CMakeFiles/primis.dir/cmake_pch.hxx.cxx
+
+CMakeFiles/primis.dir/cmake_pch.hxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/primis.dir/cmake_pch.hxx.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -emit-pch -Xclang -include -Xclang /Volumes/Files/c/Primis/Primis/build/CMakeFiles/primis.dir/cmake_pch.hxx -x c++-header -E /Volumes/Files/c/Primis/Primis/build/CMakeFiles/primis.dir/cmake_pch.hxx.cxx > CMakeFiles/primis.dir/cmake_pch.hxx.i
+
+CMakeFiles/primis.dir/cmake_pch.hxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/primis.dir/cmake_pch.hxx.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -emit-pch -Xclang -include -Xclang /Volumes/Files/c/Primis/Primis/build/CMakeFiles/primis.dir/cmake_pch.hxx -x c++-header -S /Volumes/Files/c/Primis/Primis/build/CMakeFiles/primis.dir/cmake_pch.hxx.cxx -o CMakeFiles/primis.dir/cmake_pch.hxx.s
+
 CMakeFiles/primis.dir/src/Primis/Application.cpp.o: CMakeFiles/primis.dir/flags.make
 CMakeFiles/primis.dir/src/Primis/Application.cpp.o: ../src/Primis/Application.cpp
+CMakeFiles/primis.dir/src/Primis/Application.cpp.o: CMakeFiles/primis.dir/cmake_pch.hxx
+CMakeFiles/primis.dir/src/Primis/Application.cpp.o: CMakeFiles/primis.dir/cmake_pch.hxx.pch
 CMakeFiles/primis.dir/src/Primis/Application.cpp.o: CMakeFiles/primis.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Files/c/Primis/Primis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/primis.dir/src/Primis/Application.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/primis.dir/src/Primis/Application.cpp.o -MF CMakeFiles/primis.dir/src/Primis/Application.cpp.o.d -o CMakeFiles/primis.dir/src/Primis/Application.cpp.o -c /Volumes/Files/c/Primis/Primis/src/Primis/Application.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Files/c/Primis/Primis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/primis.dir/src/Primis/Application.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Volumes/Files/c/Primis/Primis/build/CMakeFiles/primis.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Volumes/Files/c/Primis/Primis/build/CMakeFiles/primis.dir/cmake_pch.hxx -MD -MT CMakeFiles/primis.dir/src/Primis/Application.cpp.o -MF CMakeFiles/primis.dir/src/Primis/Application.cpp.o.d -o CMakeFiles/primis.dir/src/Primis/Application.cpp.o -c /Volumes/Files/c/Primis/Primis/src/Primis/Application.cpp
 
 CMakeFiles/primis.dir/src/Primis/Application.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/primis.dir/src/Primis/Application.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Files/c/Primis/Primis/src/Primis/Application.cpp > CMakeFiles/primis.dir/src/Primis/Application.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Volumes/Files/c/Primis/Primis/build/CMakeFiles/primis.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Volumes/Files/c/Primis/Primis/build/CMakeFiles/primis.dir/cmake_pch.hxx -E /Volumes/Files/c/Primis/Primis/src/Primis/Application.cpp > CMakeFiles/primis.dir/src/Primis/Application.cpp.i
 
 CMakeFiles/primis.dir/src/Primis/Application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/primis.dir/src/Primis/Application.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Files/c/Primis/Primis/src/Primis/Application.cpp -o CMakeFiles/primis.dir/src/Primis/Application.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Volumes/Files/c/Primis/Primis/build/CMakeFiles/primis.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Volumes/Files/c/Primis/Primis/build/CMakeFiles/primis.dir/cmake_pch.hxx -S /Volumes/Files/c/Primis/Primis/src/Primis/Application.cpp -o CMakeFiles/primis.dir/src/Primis/Application.cpp.s
 
 CMakeFiles/primis.dir/src/Primis/Log.cpp.o: CMakeFiles/primis.dir/flags.make
 CMakeFiles/primis.dir/src/Primis/Log.cpp.o: ../src/Primis/Log.cpp
+CMakeFiles/primis.dir/src/Primis/Log.cpp.o: CMakeFiles/primis.dir/cmake_pch.hxx
+CMakeFiles/primis.dir/src/Primis/Log.cpp.o: CMakeFiles/primis.dir/cmake_pch.hxx.pch
 CMakeFiles/primis.dir/src/Primis/Log.cpp.o: CMakeFiles/primis.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Files/c/Primis/Primis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/primis.dir/src/Primis/Log.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/primis.dir/src/Primis/Log.cpp.o -MF CMakeFiles/primis.dir/src/Primis/Log.cpp.o.d -o CMakeFiles/primis.dir/src/Primis/Log.cpp.o -c /Volumes/Files/c/Primis/Primis/src/Primis/Log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Files/c/Primis/Primis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/primis.dir/src/Primis/Log.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Volumes/Files/c/Primis/Primis/build/CMakeFiles/primis.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Volumes/Files/c/Primis/Primis/build/CMakeFiles/primis.dir/cmake_pch.hxx -MD -MT CMakeFiles/primis.dir/src/Primis/Log.cpp.o -MF CMakeFiles/primis.dir/src/Primis/Log.cpp.o.d -o CMakeFiles/primis.dir/src/Primis/Log.cpp.o -c /Volumes/Files/c/Primis/Primis/src/Primis/Log.cpp
 
 CMakeFiles/primis.dir/src/Primis/Log.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/primis.dir/src/Primis/Log.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Files/c/Primis/Primis/src/Primis/Log.cpp > CMakeFiles/primis.dir/src/Primis/Log.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Volumes/Files/c/Primis/Primis/build/CMakeFiles/primis.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Volumes/Files/c/Primis/Primis/build/CMakeFiles/primis.dir/cmake_pch.hxx -E /Volumes/Files/c/Primis/Primis/src/Primis/Log.cpp > CMakeFiles/primis.dir/src/Primis/Log.cpp.i
 
 CMakeFiles/primis.dir/src/Primis/Log.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/primis.dir/src/Primis/Log.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Files/c/Primis/Primis/src/Primis/Log.cpp -o CMakeFiles/primis.dir/src/Primis/Log.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Volumes/Files/c/Primis/Primis/build/CMakeFiles/primis.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Volumes/Files/c/Primis/Primis/build/CMakeFiles/primis.dir/cmake_pch.hxx -S /Volumes/Files/c/Primis/Primis/src/Primis/Log.cpp -o CMakeFiles/primis.dir/src/Primis/Log.cpp.s
 
 # Object files for target primis
 primis_OBJECTS = \
@@ -105,11 +124,12 @@ primis_OBJECTS = \
 # External object files for target primis
 primis_EXTERNAL_OBJECTS =
 
+lib/libprimis.a: CMakeFiles/primis.dir/cmake_pch.hxx.pch
 lib/libprimis.a: CMakeFiles/primis.dir/src/Primis/Application.cpp.o
 lib/libprimis.a: CMakeFiles/primis.dir/src/Primis/Log.cpp.o
 lib/libprimis.a: CMakeFiles/primis.dir/build.make
 lib/libprimis.a: CMakeFiles/primis.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/Files/c/Primis/Primis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library lib/libprimis.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/Files/c/Primis/Primis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library lib/libprimis.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/primis.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/primis.dir/link.txt --verbose=$(VERBOSE)
 

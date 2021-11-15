@@ -135,12 +135,12 @@ CMakeFiles/ContinuousCoverage.dir/clean:
 CMakeFiles/primis.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/primis.dir/build.make CMakeFiles/primis.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/primis.dir/build.make CMakeFiles/primis.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Volumes/Files/c/Primis/Primis/build/CMakeFiles --progress-num=1,2,3 "Built target primis"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Volumes/Files/c/Primis/Primis/build/CMakeFiles --progress-num=1,2,3,4 "Built target primis"
 .PHONY : CMakeFiles/primis.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/primis.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/Files/c/Primis/Primis/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/Files/c/Primis/Primis/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/primis.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/Files/c/Primis/Primis/build/CMakeFiles 0
 .PHONY : CMakeFiles/primis.dir/rule

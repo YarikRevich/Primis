@@ -8,3 +8,9 @@ CXX_INCLUDES = -I/Volumes/Files/c/Primis/Primis/vendor/include
 
 CXX_FLAGS = -std=c++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
 
+# PCH options: CMakeFiles/primis.dir/cmake_pch.hxx.pch_OPTIONS = -Winvalid-pch;-Xclang;-emit-pch;-Xclang;-include;-Xclang;/Volumes/Files/c/Primis/Primis/build/CMakeFiles/primis.dir/cmake_pch.hxx;-x;c++-header
+
+# PCH options: CMakeFiles/primis.dir/src/Primis/Application.cpp.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Volumes/Files/c/Primis/Primis/build/CMakeFiles/primis.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Volumes/Files/c/Primis/Primis/build/CMakeFiles/primis.dir/cmake_pch.hxx
+
+# PCH options: CMakeFiles/primis.dir/src/Primis/Log.cpp.o_OPTIONS = -Winvalid-pch;-Xclang;-include-pch;-Xclang;/Volumes/Files/c/Primis/Primis/build/CMakeFiles/primis.dir/cmake_pch.hxx.pch;-Xclang;-include;-Xclang;/Volumes/Files/c/Primis/Primis/build/CMakeFiles/primis.dir/cmake_pch.hxx
+
